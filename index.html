@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="trivia.js"></script>
+
+</head>
+
+<body>
+
+<div id ="container">
+        <img src ="http://res.freestockphotos.biz/pictures/9/9490-illustration-of-the-space-shuttle-pv.png"/>
+    <header>
+        <h1>H-Town Quiz</h1>
+        <p> Test your knowledge about the Bayou City</p>
+        <div>Time is up in <span id="time">05:00</span> minutes!</div>
+    </header>
+    <section>
+        <div id = "results"></div>
+        <form name ="quizForm" onsubmit = "return submitAnswers()">
+
+            <h3>1. What is the population of the City of Houston?</h3>
+            <input type ="radio" name="q1" value="a" id="q1a"> a. 2.3 million<br>
+            <input type ="radio" name="q1" value="b" id="q1b"> b. 2.8 million<br>
+            <input type ="radio" name="q1" value="c" id="q1c"> c. 3.1 million<br>
+            <input type ="radio" name="q1" value="d" id="q1d"> d. 1.9 million<br>
+
+            <h3>2. Houston has all of the following nicknames except what?</h3>
+            <input type ="radio" name="q2" value="a" id="q2a"> a. Clutch City<br>
+            <input type ="radio" name="q2" value="b" id="q2b"> b. Space City<br>
+            <input type ="radio" name="q2" value="c" id="q2c"> c. City That Never Sleeps<br>
+            <input type ="radio" name="q2" value="d" id="q2d"> d. Bayou City<br>
+
+            <h3>3. Which of the following is not true?</h3>
+            <input type ="radio" name="q3" value="a" id="q3a"> a. The founder of Houston is Sam Houston<br>
+            <input type ="radio" name="q3" value="b" id="q3b"> b. Houston gets more rain than Seattle<br>
+            <input type ="radio" name="q3" value="c" id="q3c"> c. Houston is the most diverse city in the United States<br>
+            <input type ="radio" name="q3" value="d" id="q3d"> d. Houston has an underground tunnel system<br>
+
+            <h3>4. Houston is the _____ largest city in the United States (by population)?</h3>
+            <input type ="radio" name="q4" value="a" id="q4a"> a. 4th<br>
+            <input type ="radio" name="q4" value="b" id="q4b"> b. 3rd<br>
+            <input type ="radio" name="q4" value="c" id="q4c"> c. 5th<br>
+            <input type ="radio" name="q4" value="d" id="q4d"> d. 7th<br>
+
+            <h3>5. Houston is larger than what state (by area)?</h3>
+            <input type ="radio" name="q5" value="a" id="q5a"> a. New Jersey<br>
+            <input type ="radio" name="q5" value="b" id="q5b"> b. Maine<br>
+            <input type ="radio" name="q5" value="c" id="q5c"> c. Arizona<br>
+            <input type ="radio" name="q5" value="d" id="q5d"> d. West Virginia<br>
+
+            <h3>6. Houston is home to the largest ____ in the world?</h3>
+            <input type ="radio" name="q6" value="a" id="q6a"> a. Port<br>
+            <input type ="radio" name="q6" value="b" id="q6b"> b. Medical Center<br>
+            <input type ="radio" name="q6" value="c" id="q6c"> c. Football Stadium<br>
+            <input type ="radio" name="q6" value="d" id="q6d"> d. Aquarium<br>
+
+            <h3>7. What is the area of the City of Houston?</h3>
+            <input type ="radio" name="q7" value="a" id="q7a"> a. 500 mi<br>
+            <input type ="radio" name="q7" value="b" id="q7b"> b. 841 mi<br>
+            <input type ="radio" name="q7" value="c" id="q7c"> c. 627 mi<br>
+            <input type ="radio" name="q7" value="d" id="q7d"> d. 701 mi<br>
+
+            <h3>8. Houston has more than _____ restaurants ?</h3>
+            <input type ="radio" name="q8" value="a" id="q8a"> a. 5,000<br>
+            <input type ="radio" name="q8" value="b" id="q8b"> b. 8,000<br>
+            <input type ="radio" name="q8" value="c" id="q8c"> c. 15,000<br>
+            <input type ="radio" name="q8" value="d" id="q8d"> d. 11,000<br>
+
+            <h3>9. Houton the __ most humid city in the United States?</h3>
+            <input type ="radio" name="q9" value="a" id="q9a"> a. 3rd<br>
+            <input type ="radio" name="q9" value="b" id="q9b"> b. 5th<br>
+            <input type ="radio" name="q9" value="c" id="q9c"> c. 1st<br>
+            <input type ="radio" name="q9" value="d" id="q9d"> d. 4th<br>
+
+            <h3>10. Buffalo Bayou stretches over ____ miles?</h3>
+            <input type ="radio" name="q10" value="a" id="q10a"> a. 87<br>
+            <input type ="radio" name="q10" value="b" id="q10b"> b. 53<br>
+            <input type ="radio" name="q10" value="c" id="q10c"> c. 40<br>
+            <input type ="radio" name="q10" value="d" id="q10d"> d. 72<br>
+            <br><br>
+            <input type = "submit" value = "submitAnswers">
+
+            
+        </form>
+    </section>
+    <footer>
+
+
+    </footer>
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
